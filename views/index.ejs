@@ -1,0 +1,79 @@
+<% include ./partials/header %>
+
+<div class="container-fluid" id="posts">
+  <!-- add extra container element for Masonry -->
+  <div class="grid">
+    <div class="grid-sizer col-xs-12 col-sm-6 col-md-4"></div> <!--The .col classes determine the size of each column-->
+
+	<% posts.forEach(function(post){ %>
+
+		<div class="grid-item col-xs-12 col-sm-6 col-md-4" style="background:linear-gradient(rgba(97, 98 ,116 , .5), rgba(152, 19 ,92 , .5)), url('<%= post.image %>'); background-size: cover;">
+			<div class="grid-item-content">
+				<h1><%= post.title %></h1>
+				<p><%= post.description %></p>
+				
+				<button type="button" class="btn btn-primary">Read More</button>
+
+			</div>
+		</div>
+	<% }) %>
+
+  </div>
+</div>
+
+
+<div id="" class="container">
+	<h1>Announcements</h1>
+	<hr class="featurette-divider">
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Lorem Ipsum.</h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" src="http://www.japan-guide.com/g2/3901_01.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Lorem Ipsum.</h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" src="http://img.timeinc.net/time/photoessays/2011/travel_kyoto/01_kinkakuji.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Lorem Ipsum.</h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" src="http://www.japan-guide.com/g2/3901_01.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Lorem Ipsum.</h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" src="http://img.timeinc.net/time/photoessays/2011/travel_kyoto/01_kinkakuji.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<% include ./partials/footer %>
