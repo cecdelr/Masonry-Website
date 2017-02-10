@@ -9,4 +9,5 @@
 Coming Soon!
 
 ## Screenshots: 
-Coming Soon!
+###Full Page Mock
+![Full Page Mock](https://raw.githubusercontent.com/cecdelr/Masonry-Website/master/screenshots/img1.png)
