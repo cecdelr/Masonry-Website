@@ -11,3 +11,6 @@ Coming Soon!
 ## Screenshots: 
 ###Full Page Mock
 ![Full Page Mock](https://raw.githubusercontent.com/cecdelr/Masonry-Website/master/screenshots/img1.png)
+
+###One Tile Clicked
+![One Tile Clicked](https://raw.githubusercontent.com/cecdelr/Masonry-Website/master/screenshots/img2.png)
